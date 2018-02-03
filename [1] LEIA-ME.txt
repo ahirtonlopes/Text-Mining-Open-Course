@@ -1,0 +1,31 @@
+"""
+__author__ = "Ahirton Lopes"
+__copyright__ = "Copyright 2015/2016/2017, Mackenzie University"
+__credits__ = ["Ahirton Lopes", "Rodrigo Pasti", "Leandro de Castro"]
+__license__ = "None"
+__version__ = "1.0"
+__maintainer__ = "Ahirton Lopes"
+__email__ = "ahirton.xd@gmail.com"
+"""
+
+1) Antes de executar os scripts favor verificar a instalação do NTLK e seus pacotes por meio dos 
+seguintes comandos no console Python de sua preferência:
+
+import nltk
+
+nltk.downlod() 
+
+2) Após a abertura de nova janela favor verificar se os seguintes pacotes do NLTK estão instalados:
+
+	- Em /CORPORA/ favor baixar o "mac_morpho" (dicionário para tagging advindo treinado em artigos jornalísticos do Jornal Folha de SP)
+	- Em /MODELS/ baixar o "punkt" e o "rslp" (para pontuação e remoção de sufixos, respectivamente)
+
+3) Alterar o caminho padrão onde devem ser gerados os arquivos referentes ao tagger em "file_utils":
+
+	- No exemplo consta como: 'C:\\Users\\Ahirton\\Desktop\\Python2\OutputFiles\\'
+
+
+Bons estudos a todos,
+
+
+[]'s
